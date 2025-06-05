@@ -22,7 +22,6 @@ interface ChartData {
 }
 
 export default function EmotionAnalysis({ chartData }: { chartData: ChartData }) {
-    console.log("🚀 ~ EmotionAnalysis ~ chartData:", JSON.stringify(chartData))
     // Transform data and ensure colors are properly mapped
     const transformedData = chartData.labels.map((label, index) => ({
         name: label,

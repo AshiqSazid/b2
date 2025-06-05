@@ -36,7 +36,6 @@ export default function SongList() {
         })
 
         if (response.data && response.data) {
-          console.log(response.data)
           setData(response.data.data)
           setTotalItems(response?.data?.pagination?.totalItems || response.data.data.length)
         } else {
