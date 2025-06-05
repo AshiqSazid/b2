@@ -1,6 +1,6 @@
 "use client";
 
-import { fetchSongCount } from '@/api_request/dashboad';
+import { fetchSongCount } from '@/api_request/dashboard';
 import { useEffect, useState } from 'react';
 
 export default function Dashboard() {
