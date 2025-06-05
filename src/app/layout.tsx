@@ -29,7 +29,6 @@ export default function RootLayout({
             </SessionProvider>
           </AuthContextProvider>
         </ThemeProvider>
-        <ToastContainer />
       </body>
     </html>
   );
